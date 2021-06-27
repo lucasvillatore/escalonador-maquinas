@@ -83,8 +83,6 @@ if __name__ == "__main__":
             'tempo_em_minutos': quantidade_minutos
         }
         pedidos.append(pedido)
-    pedidos = [{'quantidade': 97, 'tempo_em_minutos': 135}, {'quantidade': 610, 'tempo_em_minutos': 108}, 
-    {'quantidade': 395, 'tempo_em_minutos': 93}, {'quantidade': 211, 'tempo_em_minutos': 42}]
 
     pedidos = sorted(pedidos, key=lambda k: k['tempo_em_minutos'], reverse=True) 
     
