@@ -9,3 +9,39 @@ Uma empresa aluga máquinas(para uso remoto) sob demanda de seus clientes. A ún
 A  empresa  tem maquinas. Ao receber um conjunto de pedidos, o gerente da empresa precisa escalonar em qual maquina e em qual dia cada uso vai ser feito.
 Considere que a demanda (pedidos) ́e dada por um conjunto de *n* pares(ni, ti), onde *ni* ́e o numero de pedidos de tempo ti, com 1 ≤ i ≤ n.
 Queremos minimizar o numero de dias necessario para atender aos pedidos da demanda
+
+### Como funciona o algoritmo
+
+lorem ipsum dolor met a sit
+
+### Saída
+
+### Exemplo de entrada
+
+```bash
+$ python3 main.py | lp_solve
+
+3 4
+97 135
+610 108
+395 93
+211 42
+```
+
+```bash
+$ python3 main.py | lp_solve
+
+3 4
+10 200
+5 330
+10 420
+8 500
+```
+
+
+
+### Imagens Adicionais
+
+![](./imagens/exemplo_1.png)
+
+![](./imagens/exemplo_2.png)
