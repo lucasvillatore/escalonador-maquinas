@@ -1,5 +1,7 @@
+#!/usr/bin/python3
+
 def splita_entrada_em_inteiros(entrada):
-    quantidade_x, quantidade_y = entrada.split(' ')
+    quantidade_x, quantidade_y = entrada.split()
 
     quantidade_x = int(quantidade_x)
     quantidade_y = int(quantidade_y)
@@ -100,4 +102,3 @@ if __name__ == "__main__":
         print(f'c{i + 1}: ' + equacoes[i]+";")
     for i in range(0, len(variaveis)):
         print(custo[i] + ' >= 0;')
-
