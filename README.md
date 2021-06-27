@@ -14,8 +14,6 @@ Queremos minimizar o numero de dias necessario para atender aos pedidos da deman
 
 lorem ipsum dolor met a sit
 
-### Saída
-
 ### Exemplo de entrada
 
 ```bash
@@ -37,11 +35,34 @@ $ python3 main.py | lp_solve
 10 420
 8 500
 ```
+### Saída
+O programa gerará na saída padrão entradas para o programa lp_solve
 
+O exemplo de entrada
+```bash
+3 4
+10 200
+5 330
+10 420
+8 500
+```
 
+gerará a saída
+```bash
+min : x1  + x2  + x3  + x4 ;
+c1: 0x1 + 0x2 + 0x3 + 1x4 >= 8;
+c2: 0x1 + 0x2 + 1x3 + 0x4 >= 10;
+c3: 0x1 + 1x2 + 0x3 + 0x4 >= 5;
+c4: 2x1 + 1x2 + 0x3 + 0x4 >= 10;
+x1  >= 0;
+x2  >= 0;
+x3  >= 0;
+x4  >= 0;
+```
 
 ### Imagens Adicionais
 
 ![](./imagens/exemplo_1.png)
 
 ![](./imagens/exemplo_2.png)
+
